@@ -2,7 +2,7 @@ import time
 from collections import defaultdict
 import sys, threading
 sys.setrecursionlimit(3000000)  
-threading.stack_size(67108864)  
+threading.stack_size(67108864)
 
 def dfs(vert):
     global n, vertex_used, vertex_order, l_rev_graph
