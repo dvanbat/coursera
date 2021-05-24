@@ -28,7 +28,7 @@ def main():
     global n, vertex_used, vertex_order, l_graph, l_rev_graph
     l_graph     = defaultdict(list)
     l_rev_graph = defaultdict(list)
-    f = open("scc.txt", "r")
+    f = open("scc_2.txt", "r")
     for line in f:
         v = line.split()
         v0, v1 = int(v[0]), int(v[1])
